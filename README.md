@@ -1,4 +1,5 @@
 LendNX MCP Server
+
 A Model Context Protocol (MCP) server that provides loan processing tools with intelligent missing field detection and EMI schedule generation.
 ---
 Base URL
