@@ -1,0 +1,566 @@
+{
+  "info": {
+    "_postman_id": "2902ad23-97f6-4c5f-bcaf-86bc9a1f64f6",
+    "name": "MCP",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "6959137"
+  },
+  "item": [
+    {
+      "name": "Initialize",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://eone-dev.outsystems.app/Eone_MCPServer/rest/MCP/mcp",
+          "protocol": "https",
+          "host": [
+            "eone-dev",
+            "outsystems",
+            "app"
+          ],
+          "path": [
+            "Eone_MCPServer",
+            "rest",
+            "MCP",
+            "mcp"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Initialize",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://eone-dev.outsystems.app/MCPServer_CustomerApp/rest/MCP/mcp",
+              "protocol": "https",
+              "host": [
+                "eone-dev",
+                "outsystems",
+                "app"
+              ],
+              "path": [
+                "MCPServer_CustomerApp",
+                "rest",
+                "MCP",
+                "mcp"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "transfer-encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 03 Oct 2026 07:28:35 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "no-store,no-cache"
+            },
+            {
+              "key": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "expires",
+              "value": "-1"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-envoy-upstream-service-time",
+              "value": "22"
+            },
+            {
+              "key": "server",
+              "value": "outsystems"
+            },
+            {
+              "key": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "key": "via",
+              "value": "1.1 417acc55dd3b4065efc4abf65d6ee75c.cloudfront.net (CloudFront)"
+            },
+            {
+              "key": "x-amz-cf-pop",
+              "value": "BLR50-P4"
+            },
+            {
+              "key": "x-amz-cf-id",
+              "value": "23oTvyoQCz72m0jmlJmgC8ChA2vEgv0cFL_L_9gv1SycaNgWe8ADPg=="
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"protocolVersion\": \"2024-11-05\",\n  \"capabilities\": {\n    \"tools\": {}\n  },\n  \"serverInfo\": {\n    \"name\": \"MCPServer_CustomerApp\",\n    \"version\": \"1.0.0\"\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "ToolsList",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"id\": 2,\r\n  \"method\": \"tools/list\",\r\n  \"params\": {}\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://eone-dev.outsystems.app/Eone_MCPServer/rest/MCP/mcp",
+          "protocol": "https",
+          "host": [
+            "eone-dev",
+            "outsystems",
+            "app"
+          ],
+          "path": [
+            "Eone_MCPServer",
+            "rest",
+            "MCP",
+            "mcp"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "ToolsList",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"id\": 2,\r\n  \"method\": \"tools/list\",\r\n  \"params\": {}\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://eone-dev.outsystems.app/MCPServer_CustomerApp/rest/MCP/mcp",
+              "protocol": "https",
+              "host": [
+                "eone-dev",
+                "outsystems",
+                "app"
+              ],
+              "path": [
+                "MCPServer_CustomerApp",
+                "rest",
+                "MCP",
+                "mcp"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "transfer-encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 03 Oct 2026 07:29:59 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "no-store,no-cache"
+            },
+            {
+              "key": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "expires",
+              "value": "-1"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-envoy-upstream-service-time",
+              "value": "13"
+            },
+            {
+              "key": "server",
+              "value": "outsystems"
+            },
+            {
+              "key": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "key": "via",
+              "value": "1.1 d095b3b345c2d0c5ec8de6e17193dde6.cloudfront.net (CloudFront)"
+            },
+            {
+              "key": "x-amz-cf-pop",
+              "value": "MAA50-P1"
+            },
+            {
+              "key": "x-amz-cf-id",
+              "value": "kjWo5sydpOIhbOYOLyZ2-2wJuW5189_rB9KwuuifKgcuRqQWIFquWA=="
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 2,\n  \"result\": {\n    \"tools\": [\n      {\n        \"name\": \"full_emi_schedule\",\n        \"description\": \"Generates a complete EMI repayment schedule for every month of the loan tenure. Returns a JSON array with one entry per month containing month number, date, EMI, principal, interest and balance. Required: loanAmount, interestRate, tenureMonths, startDate.\",\n        \"inputSchema\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"loanAmount\": {\n              \"type\": \"string\",\n              \"description\": \"Loan principal amount\"\n            },\n            \"interestRate\": {\n              \"type\": \"string\",\n              \"description\": \"Annual interest rate as a percentage (e.g. 8.5)\"\n            },\n            \"tenureMonths\": {\n              \"type\": \"string\",\n              \"description\": \"Loan tenure in months (e.g. 60)\"\n            },\n            \"startDate\": {\n              \"type\": \"string\",\n              \"description\": \"Loan start date in YYYY-MM-DD format\"\n            }\n          },\n          \"required\": [\n            \"loanAmount\",\n            \"interestRate\",\n            \"tenureMonths\",\n            \"startDate\"\n          ]\n        }\n      },\n      {\n        \"name\": \"validate_missing_fields\",\n        \"description\": \"Analyses an agent response (with schema and data) and returns a job_id immediately. The AI agent runs asynchronously. Poll get_job_result with the job_id to retrieve the result. Required: Questions (JSON list), Request (JSON agent response).\",\n        \"inputSchema\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"Questions\": {\n              \"type\": \"string\",\n              \"description\": \"JSON list of question items [{tablename, attrName, question}]\"\n            },\n            \"Request\": {\n              \"type\": \"string\",\n              \"description\": \"JSON agent response with schema and data objects\"\n            }\n          },\n          \"required\": [\n            \"Questions\",\n            \"Request\"\n          ]\n        }\n      },\n      {\n        \"name\": \"get_job_result\",\n        \"description\": \"Polls the result of an async MCP job. Returns status (pending/done/error) and the result JSON when done. Use after calling validate_missing_fields.\",\n        \"inputSchema\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"job_id\": {\n              \"type\": \"string\",\n              \"description\": \"The job_id returned by validate_missing_fields\"\n            }\n          },\n          \"required\": [\n            \"job_id\"\n          ]\n        }\n      }\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Validate",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"id\": 1,\r\n  \"method\": \"tools/call\",\r\n  \"params\": {\r\n    \"name\": \"validate_missing_fields\",\r\n    \"arguments\": {\r\n      \"Questions\": \"[{\\\"Question\\\":\\\"Is there any co-applicant need to be added to the loan structure?\\\"},{\\\"Question\\\":\\\"Would you like to add additional KYC Document?\\\"},{\\\"Question\\\":\\\"Is the address the same as the Primary applicant?\\\"},{\\\"Question\\\":\\\"For Co-applicant, what is the relationship with the primary applicant?\\\"},{\\\"Question\\\":\\\"Is there any child dependents in the family?\\\"},{\\\"Question\\\":\\\"Update the Religion of the family?\\\"},{\\\"Question\\\":\\\"Is there any additional income need to be added for Customer?\\\"},{\\\"Question\\\":\\\"Does Customer have any other existing loan or financial obligation?\\\"}]\",\r\n      \"Request\": \"{\\\"DBSchema\\\":[{\\\"tablename\\\":\\\"APPLICATION_CUSTOMER\\\",\\\"attrName\\\":\\\"IsPrimary\\\",\\\"type\\\":\\\"boolean\\\"},{\\\"tablename\\\":\\\"APPLICATION_CUSTOMER\\\",\\\"attrName\\\":\\\"RelationshipToPrimary\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"APPLICATION_DOCUMENT\\\",\\\"attrName\\\":\\\"DocumentType\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"ADDRESS\\\",\\\"attrName\\\":\\\"AddressLine1\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"CUSTOMER_PERSONAL\\\",\\\"attrName\\\":\\\"ChildDependents\\\",\\\"type\\\":\\\"integer\\\"},{\\\"tablename\\\":\\\"CUSTOMER_PERSONAL\\\",\\\"attrName\\\":\\\"Religion\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"CUSTOMER_INCOME\\\",\\\"attrName\\\":\\\"IncomeType\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"CUSTOMER_LOAN_OBLIGATION\\\",\\\"attrName\\\":\\\"BankName\\\",\\\"type\\\":\\\"string\\\"}],\\\"Data\\\":[{\\\"tablename\\\":\\\"APPLICATION_CUSTOMER\\\",\\\"attrName\\\":\\\"IsPrimary\\\",\\\"value\\\":\\\"false\\\"},{\\\"tablename\\\":\\\"APPLICATION_CUSTOMER\\\",\\\"attrName\\\":\\\"RelationshipToPrimary\\\",\\\"value\\\":\\\"\\\"},{\\\"tablename\\\":\\\"APPLICATION_DOCUMENT\\\",\\\"attrName\\\":\\\"DocumentType\\\",\\\"value\\\":\\\"\\\"},{\\\"tablename\\\":\\\"ADDRESS\\\",\\\"attrName\\\":\\\"AddressLine1\\\",\\\"value\\\":\\\"1/689-A\\\"},{\\\"tablename\\\":\\\"CUSTOMER_PERSONAL\\\",\\\"attrName\\\":\\\"ChildDependents\\\",\\\"value\\\":\\\"0\\\"},{\\\"tablename\\\":\\\"CUSTOMER_PERSONAL\\\",\\\"attrName\\\":\\\"Religion\\\",\\\"value\\\":\\\"Christian\\\"},{\\\"tablename\\\":\\\"CUSTOMER_INCOME\\\",\\\"attrName\\\":\\\"IncomeType\\\",\\\"value\\\":\\\"\\\"},{\\\"tablename\\\":\\\"CUSTOMER_LOAN_OBLIGATION\\\",\\\"attrName\\\":\\\"BankName\\\",\\\"value\\\":\\\"\\\"}]}\"\r\n    }\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://eone-dev.outsystems.app/Eone_MCPServer/rest/MCP/mcp",
+          "protocol": "https",
+          "host": [
+            "eone-dev",
+            "outsystems",
+            "app"
+          ],
+          "path": [
+            "Eone_MCPServer",
+            "rest",
+            "MCP",
+            "mcp"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Validate",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"id\": 1,\r\n  \"method\": \"tools/call\",\r\n  \"params\": {\r\n    \"name\": \"validate_missing_fields\",\r\n    \"arguments\": {\r\n      \"Questions\": \"[{\\\"Question\\\":\\\"Is there any co-applicant need to be added to the loan structure?\\\"},{\\\"Question\\\":\\\"Would you like to add additional KYC Document?\\\"},{\\\"Question\\\":\\\"Is the address the same as the Primary applicant?\\\"},{\\\"Question\\\":\\\"For Co-applicant, what is the relationship with the primary applicant?\\\"},{\\\"Question\\\":\\\"Is there any child dependents in the family?\\\"},{\\\"Question\\\":\\\"Update the Religion of the family?\\\"},{\\\"Question\\\":\\\"Is there any additional income need to be added for Customer?\\\"},{\\\"Question\\\":\\\"Does Customer have any other existing loan or financial obligation?\\\"}]\",\r\n      \"Request\": \"{\\\"DBSchema\\\":[{\\\"tablename\\\":\\\"APPLICATION_CUSTOMER\\\",\\\"attrName\\\":\\\"IsPrimary\\\",\\\"type\\\":\\\"boolean\\\"},{\\\"tablename\\\":\\\"APPLICATION_CUSTOMER\\\",\\\"attrName\\\":\\\"RelationshipToPrimary\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"APPLICATION_DOCUMENT\\\",\\\"attrName\\\":\\\"DocumentType\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"ADDRESS\\\",\\\"attrName\\\":\\\"AddressLine1\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"CUSTOMER_PERSONAL\\\",\\\"attrName\\\":\\\"ChildDependents\\\",\\\"type\\\":\\\"integer\\\"},{\\\"tablename\\\":\\\"CUSTOMER_PERSONAL\\\",\\\"attrName\\\":\\\"Religion\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"CUSTOMER_INCOME\\\",\\\"attrName\\\":\\\"IncomeType\\\",\\\"type\\\":\\\"string\\\"},{\\\"tablename\\\":\\\"CUSTOMER_LOAN_OBLIGATION\\\",\\\"attrName\\\":\\\"BankName\\\",\\\"type\\\":\\\"string\\\"}],\\\"Data\\\":[{\\\"tablename\\\":\\\"APPLICATION_CUSTOMER\\\",\\\"attrName\\\":\\\"IsPrimary\\\",\\\"value\\\":\\\"false\\\"},{\\\"tablename\\\":\\\"APPLICATION_CUSTOMER\\\",\\\"attrName\\\":\\\"RelationshipToPrimary\\\",\\\"value\\\":\\\"\\\"},{\\\"tablename\\\":\\\"APPLICATION_DOCUMENT\\\",\\\"attrName\\\":\\\"DocumentType\\\",\\\"value\\\":\\\"\\\"},{\\\"tablename\\\":\\\"ADDRESS\\\",\\\"attrName\\\":\\\"AddressLine1\\\",\\\"value\\\":\\\"1/689-A\\\"},{\\\"tablename\\\":\\\"CUSTOMER_PERSONAL\\\",\\\"attrName\\\":\\\"ChildDependents\\\",\\\"value\\\":\\\"0\\\"},{\\\"tablename\\\":\\\"CUSTOMER_PERSONAL\\\",\\\"attrName\\\":\\\"Religion\\\",\\\"value\\\":\\\"Christian\\\"},{\\\"tablename\\\":\\\"CUSTOMER_INCOME\\\",\\\"attrName\\\":\\\"IncomeType\\\",\\\"value\\\":\\\"\\\"},{\\\"tablename\\\":\\\"CUSTOMER_LOAN_OBLIGATION\\\",\\\"attrName\\\":\\\"BankName\\\",\\\"value\\\":\\\"\\\"}]}\"\r\n    }\r\n  }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://eone-dev.outsystems.app/MCPServer_CustomerApp/rest/MCP/mcp",
+              "protocol": "https",
+              "host": [
+                "eone-dev",
+                "outsystems",
+                "app"
+              ],
+              "path": [
+                "MCPServer_CustomerApp",
+                "rest",
+                "MCP",
+                "mcp"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "transfer-encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 03 Oct 2026 09:32:42 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "no-store,no-cache"
+            },
+            {
+              "key": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "expires",
+              "value": "-1"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-envoy-upstream-service-time",
+              "value": "26539"
+            },
+            {
+              "key": "server",
+              "value": "outsystems"
+            },
+            {
+              "key": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "key": "via",
+              "value": "1.1 eed2a4e376308312c700045e98e81a5e.cloudfront.net (CloudFront)"
+            },
+            {
+              "key": "x-amz-cf-pop",
+              "value": "HYD57-P7"
+            },
+            {
+              "key": "x-amz-cf-id",
+              "value": "uLC3_Vk3hQ38shM0ozIqH3mu0ZvXBWmYZ6XsNYrWgad159zYlv1UCQ=="
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"result\": {\n    \"content\": [\n      {\n        \"type\": \"text\",\n        \"text\": \"[{\\\"tablename\\\":\\\"APPLICATION_CUSTOMER\\\",\\\"attrName\\\":\\\"RelationshipToPrimary\\\",\\\"datatype\\\":\\\"string\\\",\\\"question\\\":\\\"For Co-applicant, what is the relationship with the primary applicant?\\\"},{\\\"tablename\\\":\\\"APPLICATION_DOCUMENT\\\",\\\"attrName\\\":\\\"DocumentType\\\",\\\"datatype\\\":\\\"string\\\",\\\"question\\\":\\\"Would you like to add additional KYC Document?\\\"},{\\\"tablename\\\":\\\"CUSTOMER_PERSONAL\\\",\\\"attrName\\\":\\\"ChildDependents\\\",\\\"datatype\\\":\\\"integer\\\",\\\"question\\\":\\\"Is there any child dependents in the family?\\\"},{\\\"tablename\\\":\\\"CUSTOMER_INCOME\\\",\\\"attrName\\\":\\\"IncomeType\\\",\\\"datatype\\\":\\\"string\\\",\\\"question\\\":\\\"Is there any additional income need to be added for Customer?\\\"},{\\\"tablename\\\":\\\"CUSTOMER_LOAN_OBLIGATION\\\",\\\"attrName\\\":\\\"BankName\\\",\\\"datatype\\\":\\\"string\\\",\\\"question\\\":\\\"Does Customer have any other existing loan or financial obligation?\\\"}]\"\n      }\n    ]\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "FullEMI",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"id\": 2,\r\n  \"method\": \"tools/call\",\r\n  \"params\": {\r\n    \"name\": \"full_emi_schedule\",\r\n    \"arguments\": {\r\n      \"loanAmount\": \"1200000\",\r\n      \"interestRate\": \"10\",\r\n      \"tenureMonths\": \"120\",\r\n      \"startDate\": \"2025-01-01\"\r\n    }\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://eone-dev.outsystems.app/Eone_MCPServer/rest/MCP/mcp",
+          "protocol": "https",
+          "host": [
+            "eone-dev",
+            "outsystems",
+            "app"
+          ],
+          "path": [
+            "Eone_MCPServer",
+            "rest",
+            "MCP",
+            "mcp"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "FullEMI",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"id\": 2,\r\n  \"method\": \"tools/call\",\r\n  \"params\": {\r\n    \"name\": \"full_emi_schedule\",\r\n    \"arguments\": {\r\n      \"loanAmount\": \"1200000\",\r\n      \"interestRate\": \"10\",\r\n      \"tenureMonths\": \"120\",\r\n      \"startDate\": \"2025-01-01\"\r\n    }\r\n  }\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://eone-dev.outsystems.app/MCPServer_CustomerApp/rest/MCP/mcp",
+              "protocol": "https",
+              "host": [
+                "eone-dev",
+                "outsystems",
+                "app"
+              ],
+              "path": [
+                "MCPServer_CustomerApp",
+                "rest",
+                "MCP",
+                "mcp"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "transfer-encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 03 Oct 2026 09:45:57 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "no-store,no-cache"
+            },
+            {
+              "key": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "expires",
+              "value": "-1"
+            },
+            {
+              "key": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-envoy-upstream-service-time",
+              "value": "10"
+            },
+            {
+              "key": "server",
+              "value": "outsystems"
+            },
+            {
+              "key": "x-cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "key": "via",
+              "value": "1.1 780d97ec62056eadd62bb02a47daf7ce.cloudfront.net (CloudFront)"
+            },
+            {
+              "key": "x-amz-cf-pop",
+              "value": "HYD57-P7"
+            },
+            {
+              "key": "x-amz-cf-id",
+              "value": "_6njYKH9tpu_8gdKzT90WvShTCHFu3V4t1crUTQNFpKXZjbTVvCGQg=="
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 2,\n  \"result\": {\n    \"content\": [\n      {\n        \"type\": \"text\",\n        \"text\": \"{\\\"GetMonthlyResponse\\\":{\\\"Installment_count\\\":120,\\\"Emi\\\":15858.09,\\\"Total_paid\\\":1902970.8,\\\"Total_interest\\\":702970.41,\\\"Interest_to_principal_ratio\\\":0.5858,\\\"Schedule\\\":[{\\\"Month\\\":\\\"2025-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":10000,\\\"Principal\\\":5858.09,\\\"Balance\\\":1194141.91},{\\\"Month\\\":\\\"2025-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9951.18,\\\"Principal\\\":5906.91,\\\"Balance\\\":1188235},{\\\"Month\\\":\\\"2025-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9901.96,\\\"Principal\\\":5956.13,\\\"Balance\\\":1182278.87},{\\\"Month\\\":\\\"2025-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9852.32,\\\"Principal\\\":6005.77,\\\"Balance\\\":1176273.1},{\\\"Month\\\":\\\"2025-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9802.28,\\\"Principal\\\":6055.81,\\\"Balance\\\":1170217.29},{\\\"Month\\\":\\\"2025-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9751.81,\\\"Principal\\\":6106.28,\\\"Balance\\\":1164111.01},{\\\"Month\\\":\\\"2025-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9700.93,\\\"Principal\\\":6157.16,\\\"Balance\\\":1157953.85},{\\\"Month\\\":\\\"2025-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9649.62,\\\"Principal\\\":6208.47,\\\"Balance\\\":1151745.38},{\\\"Month\\\":\\\"2025-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9597.88,\\\"Principal\\\":6260.21,\\\"Balance\\\":1145485.17},{\\\"Month\\\":\\\"2025-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9545.71,\\\"Principal\\\":6312.38,\\\"Balance\\\":1139172.79},{\\\"Month\\\":\\\"2025-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9493.11,\\\"Principal\\\":6364.98,\\\"Balance\\\":1132807.81},{\\\"Month\\\":\\\"2025-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9440.07,\\\"Principal\\\":6418.02,\\\"Balance\\\":1126389.79},{\\\"Month\\\":\\\"2026-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9386.58,\\\"Principal\\\":6471.51,\\\"Balance\\\":1119918.28},{\\\"Month\\\":\\\"2026-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9332.65,\\\"Principal\\\":6525.44,\\\"Balance\\\":1113392.84},{\\\"Month\\\":\\\"2026-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9278.27,\\\"Principal\\\":6579.82,\\\"Balance\\\":1106813.02},{\\\"Month\\\":\\\"2026-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9223.44,\\\"Principal\\\":6634.65,\\\"Balance\\\":1100178.37},{\\\"Month\\\":\\\"2026-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9168.15,\\\"Principal\\\":6689.94,\\\"Balance\\\":1093488.43},{\\\"Month\\\":\\\"2026-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9112.4,\\\"Principal\\\":6745.69,\\\"Balance\\\":1086742.74},{\\\"Month\\\":\\\"2026-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":9056.19,\\\"Principal\\\":6801.9,\\\"Balance\\\":1079940.84},{\\\"Month\\\":\\\"2026-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8999.51,\\\"Principal\\\":6858.58,\\\"Balance\\\":1073082.26},{\\\"Month\\\":\\\"2026-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8942.35,\\\"Principal\\\":6915.74,\\\"Balance\\\":1066166.52},{\\\"Month\\\":\\\"2026-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8884.72,\\\"Principal\\\":6973.37,\\\"Balance\\\":1059193.15},{\\\"Month\\\":\\\"2026-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8826.61,\\\"Principal\\\":7031.48,\\\"Balance\\\":1052161.67},{\\\"Month\\\":\\\"2026-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8768.01,\\\"Principal\\\":7090.08,\\\"Balance\\\":1045071.59},{\\\"Month\\\":\\\"2027-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8708.93,\\\"Principal\\\":7149.16,\\\"Balance\\\":1037922.43},{\\\"Month\\\":\\\"2027-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8649.35,\\\"Principal\\\":7208.74,\\\"Balance\\\":1030713.69},{\\\"Month\\\":\\\"2027-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8589.28,\\\"Principal\\\":7268.81,\\\"Balance\\\":1023444.88},{\\\"Month\\\":\\\"2027-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8528.71,\\\"Principal\\\":7329.38,\\\"Balance\\\":1016115.5},{\\\"Month\\\":\\\"2027-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8467.63,\\\"Principal\\\":7390.46,\\\"Balance\\\":1008725.04},{\\\"Month\\\":\\\"2027-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8406.04,\\\"Principal\\\":7452.05,\\\"Balance\\\":1001272.99},{\\\"Month\\\":\\\"2027-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8343.94,\\\"Principal\\\":7514.15,\\\"Balance\\\":993758.84},{\\\"Month\\\":\\\"2027-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8281.32,\\\"Principal\\\":7576.77,\\\"Balance\\\":986182.07},{\\\"Month\\\":\\\"2027-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8218.18,\\\"Principal\\\":7639.91,\\\"Balance\\\":978542.16},{\\\"Month\\\":\\\"2027-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8154.52,\\\"Principal\\\":7703.57,\\\"Balance\\\":970838.59},{\\\"Month\\\":\\\"2027-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8090.32,\\\"Principal\\\":7767.77,\\\"Balance\\\":963070.82},{\\\"Month\\\":\\\"2027-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":8025.59,\\\"Principal\\\":7832.5,\\\"Balance\\\":955238.32},{\\\"Month\\\":\\\"2028-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7960.32,\\\"Principal\\\":7897.77,\\\"Balance\\\":947340.55},{\\\"Month\\\":\\\"2028-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7894.5,\\\"Principal\\\":7963.59,\\\"Balance\\\":939376.96},{\\\"Month\\\":\\\"2028-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7828.14,\\\"Principal\\\":8029.95,\\\"Balance\\\":931347.01},{\\\"Month\\\":\\\"2028-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7761.23,\\\"Principal\\\":8096.86,\\\"Balance\\\":923250.15},{\\\"Month\\\":\\\"2028-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7693.75,\\\"Principal\\\":8164.34,\\\"Balance\\\":915085.81},{\\\"Month\\\":\\\"2028-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7625.72,\\\"Principal\\\":8232.37,\\\"Balance\\\":906853.44},{\\\"Month\\\":\\\"2028-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7557.11,\\\"Principal\\\":8300.98,\\\"Balance\\\":898552.46},{\\\"Month\\\":\\\"2028-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7487.94,\\\"Principal\\\":8370.15,\\\"Balance\\\":890182.31},{\\\"Month\\\":\\\"2028-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7418.19,\\\"Principal\\\":8439.9,\\\"Balance\\\":881742.41},{\\\"Month\\\":\\\"2028-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7347.85,\\\"Principal\\\":8510.24,\\\"Balance\\\":873232.17},{\\\"Month\\\":\\\"2028-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7276.93,\\\"Principal\\\":8581.16,\\\"Balance\\\":864651.01},{\\\"Month\\\":\\\"2028-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7205.43,\\\"Principal\\\":8652.66,\\\"Balance\\\":855998.35},{\\\"Month\\\":\\\"2029-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7133.32,\\\"Principal\\\":8724.77,\\\"Balance\\\":847273.58},{\\\"Month\\\":\\\"2029-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":7060.61,\\\"Principal\\\":8797.48,\\\"Balance\\\":838476.1},{\\\"Month\\\":\\\"2029-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6987.3,\\\"Principal\\\":8870.79,\\\"Balance\\\":829605.31},{\\\"Month\\\":\\\"2029-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6913.38,\\\"Principal\\\":8944.71,\\\"Balance\\\":820660.6},{\\\"Month\\\":\\\"2029-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6838.84,\\\"Principal\\\":9019.25,\\\"Balance\\\":811641.35},{\\\"Month\\\":\\\"2029-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6763.68,\\\"Principal\\\":9094.41,\\\"Balance\\\":802546.94},{\\\"Month\\\":\\\"2029-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6687.89,\\\"Principal\\\":9170.2,\\\"Balance\\\":793376.74},{\\\"Month\\\":\\\"2029-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6611.47,\\\"Principal\\\":9246.62,\\\"Balance\\\":784130.12},{\\\"Month\\\":\\\"2029-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6534.42,\\\"Principal\\\":9323.67,\\\"Balance\\\":774806.45},{\\\"Month\\\":\\\"2029-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6456.72,\\\"Principal\\\":9401.37,\\\"Balance\\\":765405.08},{\\\"Month\\\":\\\"2029-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6378.38,\\\"Principal\\\":9479.71,\\\"Balance\\\":755925.37},{\\\"Month\\\":\\\"2029-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6299.38,\\\"Principal\\\":9558.71,\\\"Balance\\\":746366.66},{\\\"Month\\\":\\\"2030-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6219.72,\\\"Principal\\\":9638.37,\\\"Balance\\\":736728.29},{\\\"Month\\\":\\\"2030-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6139.4,\\\"Principal\\\":9718.69,\\\"Balance\\\":727009.6},{\\\"Month\\\":\\\"2030-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":6058.41,\\\"Principal\\\":9799.68,\\\"Balance\\\":717209.92},{\\\"Month\\\":\\\"2030-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5976.75,\\\"Principal\\\":9881.34,\\\"Balance\\\":707328.58},{\\\"Month\\\":\\\"2030-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5894.4,\\\"Principal\\\":9963.69,\\\"Balance\\\":697364.89},{\\\"Month\\\":\\\"2030-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5811.37,\\\"Principal\\\":10046.72,\\\"Balance\\\":687318.17},{\\\"Month\\\":\\\"2030-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5727.65,\\\"Principal\\\":10130.44,\\\"Balance\\\":677187.73},{\\\"Month\\\":\\\"2030-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5643.23,\\\"Principal\\\":10214.86,\\\"Balance\\\":666972.87},{\\\"Month\\\":\\\"2030-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5558.11,\\\"Principal\\\":10299.98,\\\"Balance\\\":656672.89},{\\\"Month\\\":\\\"2030-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5472.27,\\\"Principal\\\":10385.82,\\\"Balance\\\":646287.07},{\\\"Month\\\":\\\"2030-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5385.73,\\\"Principal\\\":10472.36,\\\"Balance\\\":635814.71},{\\\"Month\\\":\\\"2030-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5298.46,\\\"Principal\\\":10559.63,\\\"Balance\\\":625255.08},{\\\"Month\\\":\\\"2031-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5210.46,\\\"Principal\\\":10647.63,\\\"Balance\\\":614607.45},{\\\"Month\\\":\\\"2031-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5121.73,\\\"Principal\\\":10736.36,\\\"Balance\\\":603871.09},{\\\"Month\\\":\\\"2031-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":5032.26,\\\"Principal\\\":10825.83,\\\"Balance\\\":593045.26},{\\\"Month\\\":\\\"2031-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4942.04,\\\"Principal\\\":10916.05,\\\"Balance\\\":582129.21},{\\\"Month\\\":\\\"2031-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4851.08,\\\"Principal\\\":11007.01,\\\"Balance\\\":571122.2},{\\\"Month\\\":\\\"2031-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4759.35,\\\"Principal\\\":11098.74,\\\"Balance\\\":560023.46},{\\\"Month\\\":\\\"2031-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4666.86,\\\"Principal\\\":11191.23,\\\"Balance\\\":548832.23},{\\\"Month\\\":\\\"2031-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4573.6,\\\"Principal\\\":11284.49,\\\"Balance\\\":537547.74},{\\\"Month\\\":\\\"2031-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4479.56,\\\"Principal\\\":11378.53,\\\"Balance\\\":526169.21},{\\\"Month\\\":\\\"2031-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4384.74,\\\"Principal\\\":11473.35,\\\"Balance\\\":514695.86},{\\\"Month\\\":\\\"2031-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4289.13,\\\"Principal\\\":11568.96,\\\"Balance\\\":503126.9},{\\\"Month\\\":\\\"2031-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4192.72,\\\"Principal\\\":11665.37,\\\"Balance\\\":491461.53},{\\\"Month\\\":\\\"2032-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":4095.51,\\\"Principal\\\":11762.58,\\\"Balance\\\":479698.95},{\\\"Month\\\":\\\"2032-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3997.49,\\\"Principal\\\":11860.6,\\\"Balance\\\":467838.35},{\\\"Month\\\":\\\"2032-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3898.65,\\\"Principal\\\":11959.44,\\\"Balance\\\":455878.91},{\\\"Month\\\":\\\"2032-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3798.99,\\\"Principal\\\":12059.1,\\\"Balance\\\":443819.81},{\\\"Month\\\":\\\"2032-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3698.5,\\\"Principal\\\":12159.59,\\\"Balance\\\":431660.22},{\\\"Month\\\":\\\"2032-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3597.17,\\\"Principal\\\":12260.92,\\\"Balance\\\":419399.3},{\\\"Month\\\":\\\"2032-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3494.99,\\\"Principal\\\":12363.1,\\\"Balance\\\":407036.2},{\\\"Month\\\":\\\"2032-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3391.97,\\\"Principal\\\":12466.12,\\\"Balance\\\":394570.08},{\\\"Month\\\":\\\"2032-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3288.08,\\\"Principal\\\":12570.01,\\\"Balance\\\":382000.07},{\\\"Month\\\":\\\"2032-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3183.33,\\\"Principal\\\":12674.76,\\\"Balance\\\":369325.31},{\\\"Month\\\":\\\"2032-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":3077.71,\\\"Principal\\\":12780.38,\\\"Balance\\\":356544.93},{\\\"Month\\\":\\\"2032-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":2971.21,\\\"Principal\\\":12886.88,\\\"Balance\\\":343658.05},{\\\"Month\\\":\\\"2033-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":2863.82,\\\"Principal\\\":12994.27,\\\"Balance\\\":330663.78},{\\\"Month\\\":\\\"2033-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":2755.53,\\\"Principal\\\":13102.56,\\\"Balance\\\":317561.22},{\\\"Month\\\":\\\"2033-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":2646.34,\\\"Principal\\\":13211.75,\\\"Balance\\\":304349.47},{\\\"Month\\\":\\\"2033-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":2536.25,\\\"Principal\\\":13321.84,\\\"Balance\\\":291027.63},{\\\"Month\\\":\\\"2033-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":2425.23,\\\"Principal\\\":13432.86,\\\"Balance\\\":277594.77},{\\\"Month\\\":\\\"2033-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":2313.29,\\\"Principal\\\":13544.8,\\\"Balance\\\":264049.97},{\\\"Month\\\":\\\"2033-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":2200.42,\\\"Principal\\\":13657.67,\\\"Balance\\\":250392.3},{\\\"Month\\\":\\\"2033-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":2086.6,\\\"Principal\\\":13771.49,\\\"Balance\\\":236620.81},{\\\"Month\\\":\\\"2033-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":1971.84,\\\"Principal\\\":13886.25,\\\"Balance\\\":222734.56},{\\\"Month\\\":\\\"2033-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":1856.12,\\\"Principal\\\":14001.97,\\\"Balance\\\":208732.59},{\\\"Month\\\":\\\"2033-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":1739.44,\\\"Principal\\\":14118.65,\\\"Balance\\\":194613.94},{\\\"Month\\\":\\\"2033-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":1621.78,\\\"Principal\\\":14236.31,\\\"Balance\\\":180377.63},{\\\"Month\\\":\\\"2034-01-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":1503.15,\\\"Principal\\\":14354.94,\\\"Balance\\\":166022.69},{\\\"Month\\\":\\\"2034-02-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":1383.52,\\\"Principal\\\":14474.57,\\\"Balance\\\":151548.12},{\\\"Month\\\":\\\"2034-03-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":1262.9,\\\"Principal\\\":14595.19,\\\"Balance\\\":136952.93},{\\\"Month\\\":\\\"2034-04-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":1141.27,\\\"Principal\\\":14716.82,\\\"Balance\\\":122236.11},{\\\"Month\\\":\\\"2034-05-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":1018.63,\\\"Principal\\\":14839.46,\\\"Balance\\\":107396.65},{\\\"Month\\\":\\\"2034-06-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":894.97,\\\"Principal\\\":14963.12,\\\"Balance\\\":92433.53},{\\\"Month\\\":\\\"2034-07-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":770.28,\\\"Principal\\\":15087.81,\\\"Balance\\\":77345.72},{\\\"Month\\\":\\\"2034-08-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":644.55,\\\"Principal\\\":15213.54,\\\"Balance\\\":62132.18},{\\\"Month\\\":\\\"2034-09-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":517.77,\\\"Principal\\\":15340.32,\\\"Balance\\\":46791.86},{\\\"Month\\\":\\\"2034-10-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":389.93,\\\"Principal\\\":15468.16,\\\"Balance\\\":31323.7},{\\\"Month\\\":\\\"2034-11-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":261.03,\\\"Principal\\\":15597.06,\\\"Balance\\\":15726.64},{\\\"Month\\\":\\\"2034-12-01\\\",\\\"Emi\\\":15858.09,\\\"Interest\\\":131.06,\\\"Principal\\\":15727.03,\\\"Balance\\\":0}]}}\"\n      }\n    ]\n  }\n}"
+        }
+      ]
+    }
+  ]
+}
